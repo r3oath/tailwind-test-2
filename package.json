@@ -6,8 +6,8 @@
   "scripts": {
     "dev": "next",
     "start": "next start",
-    "build": "next build",
-    "export": "next export; mv out docs"
+    "build": "NODE_ENV=production next build",
+    "export": "NODE_ENV=production next build; next export -o docs"
   },
   "keywords": [],
   "author": "",
