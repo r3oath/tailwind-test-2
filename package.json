@@ -1,0 +1,25 @@
+{
+  "name": "cadstore",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next",
+    "start": "next start",
+    "build": "next build",
+    "export": "next export; mv out docs"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@fullhuman/postcss-purgecss": "^1.2.0",
+    "@zeit/next-css": "^1.0.1",
+    "autoprefixer": "^9.6.1",
+    "cssnano": "^4.1.10",
+    "next": "^9.0.3",
+    "react": "^16.9.0",
+    "react-dom": "^16.9.0",
+    "tailwindcss": "^1.1.2"
+  }
+}
